@@ -1,0 +1,102 @@
+<html>
+<head>
+  <title>Comics</title>
+</head>
+<body>
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COMIC WEBSITE!</title>
+
+
+  <link rel="stylesheet" href="/stylesheets/app.css" />
+</head>
+
+<body>
+
+  <div class="navigation-container">
+    <ul class="nav">
+      <li>
+        <a>.</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="logo-container">
+      <h1>LOGO</h1>
+  </div>
+
+  <div class="navigation-container">
+    <ul class="nav">
+      <li>
+        <a href="/">Comic Feed</a>
+      </li>
+      <li>
+        <a href="#">placeholder</a>
+      </li>
+      <li>
+        <a href="#">placeholder</a>
+      </li>
+      <li>
+        <a href="/settings">Settings</a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="comic">
+
+  </div>
+
+  <div class="main-container">
+    <ol class="comic-list">
+
+      <ul>
+        <div class="search-result">
+          <h3 class="xkcd-comic">
+            <a href="#">xkcd</a>
+          </h3>
+          <img src= <%= @xkcd_img %>></img>
+          <h3 class="search-result-source">
+            <cite>ARTIST NAME</cite>
+          </h3>
+          <span>POSTED DATE</span>
+        </div>
+      </ul>
+
+      <ul>
+        <div class="search-result">
+          <h3 class="exlosm-comic">
+            <a href="#">explosm</a>
+          </h3>
+          <img src= <%= @explosm_img %>></img>
+          <h3 class="search-result-artist">
+            <cite>ARTIST NAME</cite>
+          </h3>
+          <span>POSTED DATE</span>
+        </div>
+      </ul>
+
+      <ul>
+        <div class="search-result">
+          <h3 class="eo-comic">
+            <a href="#">Penny Arcade</a>
+          </h3>
+          <img width="200%" src=<%= @pa_img %>></img>
+          <h3 class="search-result-artist">
+            <cite>ARTIST NAME</cite>
+          </h3>
+          <span>POSTED DATE</span>
+        </div>
+      </ul>
+
+    </ol>
+  </div>
+
+</body>
+</html>
