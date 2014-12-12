@@ -46,6 +46,3 @@ get '/settings' do
 
   erb :settings
 end
-
-# using an each to go through doc.css(‘img’)
-# if you print out each x in a .each loop, it looks like this
