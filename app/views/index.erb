@@ -1,19 +1,125 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>COMIC WEBSITE!</title>
+<link rel="stylesheet" href="/stylesheets/foundation.css" />
 
 
-  <link rel="stylesheet" href="/stylesheets/app.css" />
-</head>
+  <div class="top-bar">
 
-<body>
 
-  <img src= <%= @xkcd_img %>></img>
 
-  <img src= <%= @explosm_img %>></img>
-  
-  <img src=<%= @pa_img %>></img>
 
-</body>
-</html>
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <h1><img src="/img/kapow.png" width=150></h1>
+
+    <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+
+    <ul class="middle">
+
+      <li class="divider"></li>
+      <li><a href="/">Feed</a></li>
+      <li class="divider"></li>
+
+      <li class="divider"></li>
+      <li><a href="/settings">Settings</a></li>
+      <li class="divider"></li>
+
+      <li class="divider"></li>
+      <li><a href="/settings">Log In</a></li>
+      <li class="divider"></li>
+
+    </ul>
+  </section>
+</nav>
+</div>
+
+<hr/>
+
+<div class="row">
+
+
+  <div class="large-9 columns">
+
+  <div class="row">
+    <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]"/></div>
+    <div class="large-10 columns">
+      <img src= <%= @xkcd_img %>></img>
+      <ul class="inline-list">
+        <li><a href="">View all </a></li>
+        <li><a href="">Share</a></li>
+      </ul>
+
+
+      <h6>XKCD</h6>
+      <div class="row">
+        <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]"/></div>
+        <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+      </div>
+    </div>
+  </div>
+
+  <hr/>
+
+  <div class="row">
+    <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]"/></div>
+    <div class="large-10 columns">
+      <img src= <%= @explosm_img %>></img>
+      <ul class="inline-list">
+        <li><a href="">Reply</a></li>
+        <li><a href="">Share</a></li>
+      </ul>
+
+
+      <h6>explosm</h6>
+      <div class="row">
+        <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]"/></div>
+        <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+      </div>
+    </div>
+  </div>
+
+
+  <hr/>
+
+
+  <div class="row">
+    <div class="large-2 columns small-3"><img src="http://placehold.it/80x80&text=[img]"/></div>
+    <div class="large-10 columns">
+      <img src=<%= @pa_img %>></img>
+      <ul class="inline-list">
+        <li><a href="">Reply</a></li>
+        <li><a href="">Share</a></li>
+      </ul>
+
+
+      <h6>Penny Arcade</h6>
+      <div class="row">
+        <div class="large-2 columns small-3"><img src="http://placehold.it/50x50&text=[img]"/></div>
+        <div class="large-10 columns"><p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit</p></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="row">
+  <div class="large-12 columns">
+    <hr/>
+    <div class="row">
+      <div class="large-5 columns">
+        <p>© Copyright no one at all. Go to town.</p>
+      </div>
+      <div class="large-7 columns">
+        <ul class="inline-list right">
+          <li><a href="#">Section 1</a></li>
+          <li><a href="#">Section 2</a></li>
+          <li><a href="#">Section 3</a></li>
+          <li><a href="#">Section 4</a></li>
+          <li><a href="#">Section 5</a></li>
+          <li><a href="#">Section 6</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
